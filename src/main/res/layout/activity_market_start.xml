@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context="com.pertence.cognic.MarketStartActivity">
+
+    <TableLayout
+        style="@style/Table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow style="@style/Table">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/text_market_start" />
+        </TableRow>
+
+        <TableRow
+            style="@style/Table"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/cart" />
+        </TableRow>
+
+        <TableRow style="@style/Table">
+
+            <Button
+                android:id="@+id/button_market_start"
+                android:layout_weight="1"
+                android:text="@string/button_market_start" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

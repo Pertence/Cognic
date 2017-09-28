@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation = "portrait"
+    tools:context="com.pertence.cognic.HouseStorageActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/Table">
+
+        <TableRow style="@style/Table">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/text_house_storage" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            style="@style/Table">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="4dp">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="4dp">
+
+                <RelativeLayout>
+
+                    <ImageButton
+                        android:id="@+id/imagebutton_house_storage1"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        style="@style/AppTheme"
+                        app:srcCompat="@drawable/refrigerator"/>
+
+                    <ImageView
+                        android:id="@+id/imageview_icon1"
+                        android:layout_height="32dp"
+                        android:layout_width="32dp" />
+
+                </RelativeLayout>
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            style="@style/Table">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="4dp">
+
+                <ImageView
+                    android:id="@+id/imageview_house_storage" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="4dp">
+
+                <RelativeLayout>
+
+                    <ImageButton
+                        android:id="@+id/imagebutton_house_storage2"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        style="@style/AppTheme"
+                        app:srcCompat="@drawable/bowl"/>
+                    <ImageView
+                        android:id="@+id/imageview_icon2"
+                        android:layout_height="32dp"
+                        android:layout_width="32dp" />
+                </RelativeLayout>
+
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            style="@style/Table">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="4dp">
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="4dp">
+
+                <RelativeLayout>
+
+                    <ImageButton
+                        android:id="@+id/imagebutton_house_storage3"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        style="@style/AppTheme"
+                        app:srcCompat="@drawable/cabinet"/>
+                    <ImageView
+                        android:id="@+id/imageview_icon3"
+                        android:layout_height="32dp"
+                        android:layout_width="32dp" />
+                </RelativeLayout>
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow style="@style/Table">
+
+            <TextView
+                android:id="@+id/textview_house_storage2" />
+        </TableRow>
+
+        <TableRow style="@style/Table">
+
+            <Button
+                android:id="@+id/button_house_storage"
+                android:text="@string/button_house_storage"
+                android:visibility="invisible"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

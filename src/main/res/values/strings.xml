@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Cognic</string>
+
+    <string name="text_title">Cognic</string>
+    <string name="button_title">Iniciar</string>
+
+    <string name="text_market_start">Vamos ao Supermercado!</string>
+    <string name="button_market_start">Fazer Compras</string>
+
+    <string name="text_market_list">Memorize os itens da lista!</string>
+    <string name="button_market_list">Fazer Compras</string>
+
+    <string name="text_market_purchase">Toque nos itens da lista!</string>
+    <string name="text_correct">Correto</string>
+    <string name="text_incorrect">Incorreto</string>
+    <string name="button_market_purchase">Pagar compras</string>
+
+    <string name="text_market_payment">Toque nas notas para pagar</string>
+    <string name="text_market_payment2">Total a pagar:</string>
+    <string name="text_market_payment3">Total já pago:</string>
+    <string name="text_market_payment4">reais</string>
+    <string name="text_market_payment5">Refazer o pagamento</string>
+    <string name="button_market_payment">Pagar compras</string>
+
+    <string name="text_house_start">Vamos para casa?</string>
+    <string name="button_house_start">Vamos para casa!</string>
+    <string name="button_restart">Reiniciar</string>
+    <string name="button_exit">Sair</string>
+
+    <string name="text_house_hint">Onde guardar as compras?</string>
+    <string name="text_house_hint1">Geladeira</string>
+    <string name="text_house_hint2">Fruteira</string>
+    <string name="text_house_hint3">Armário</string>
+    <string name="button_house_hint">Guardas compras!</string>
+
+    <string name="text_house_storage">Toque nos lugares para guardar as compras</string>
+    <string name="button_house_storage">Finalizar</string>
+
+    <string name="text_finish">Parabéns</string>
+</resources>

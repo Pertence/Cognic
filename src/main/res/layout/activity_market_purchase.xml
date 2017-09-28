@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context="com.pertence.cognic.MarketPurchaseActivity">
+
+    <TableLayout
+        style="@style/Table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow style="@style/Table">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/text_market_purchase" />
+        </TableRow>
+
+        <TableRow
+            style="@style/Table"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="4dp">
+
+                <RelativeLayout>
+
+                    <ImageButton
+                        android:id="@+id/imagebutton_market_purchase1"
+                        style="@style/AppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/imageview_market_purchase1"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="4dp">
+
+                <RelativeLayout>
+
+                    <ImageButton
+                        android:id="@+id/imagebutton_market_purchase2"
+                        style="@style/AppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/imageview_market_purchase2"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp" />
+                </RelativeLayout>
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            style="@style/Table"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="4dp">
+
+                <RelativeLayout>
+
+                    <ImageButton
+                        android:id="@+id/imagebutton_market_purchase3"
+                        style="@style/AppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/imageview_market_purchase3"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="4dp">
+
+                <RelativeLayout>
+
+                    <ImageButton
+                        android:id="@+id/imagebutton_market_purchase4"
+                        style="@style/AppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/toothbrush" />
+
+                    <ImageView
+                        android:id="@+id/imageview_market_purchase4"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp" />
+                </RelativeLayout>
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            style="@style/Table"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingRight="4dp">
+
+                <RelativeLayout>
+
+                    <ImageButton
+                        android:id="@+id/imagebutton_market_purchase5"
+                        style="@style/AppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/imageview_market_purchase5"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="4dp">
+
+                <RelativeLayout>
+
+                    <ImageButton
+                        android:id="@+id/imagebutton_market_purchase6"
+                        style="@style/AppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/imageview_market_purchase6"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp" />
+                </RelativeLayout>
+            </TableRow>
+        </TableRow>
+
+        <TableRow style="@style/Table">
+
+            <TextView android:id="@+id/textview_market_purchase2" />
+        </TableRow>
+
+        <TableRow style="@style/Table">
+
+            <Button
+                android:id="@+id/button_market_purchase"
+                android:text="@string/button_market_purchase"
+                android:visibility="invisible" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context="com.pertence.cognic.MarketListActivity">
+
+    <TableLayout
+        style="@style/Table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow style="@style/Table">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/text_market_list" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/Table"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="4dp">
+
+                <ImageView android:id="@+id/imageview_market_list1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="4dp">
+
+                <TextView android:id="@+id/textview_market_list1" />
+
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            style="@style/Table"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="4dp">
+
+                <ImageView
+                    android:id="@+id/imageview_market_list2"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="4dp">
+
+                <TextView android:id="@+id/textview_market_list2" />
+
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            style="@style/Table"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="4dp">
+
+                <ImageView android:id="@+id/imageview_market_list3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="4dp">
+
+                <TextView android:id="@+id/textview_market_list3" />
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow style="@style/Table">
+
+            <Button
+                android:id="@+id/button_market_list"
+                android:text="@string/button_market_list" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

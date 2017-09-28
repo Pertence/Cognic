@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context="com.pertence.cognic.HouseHintActivity">
+
+    <TableLayout
+        style="@style/Table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow style="@style/Table">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/text_house_hint" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/Table"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="4dp">
+
+                <ImageView app:srcCompat="@drawable/refrigerator" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="4dp">
+
+                <TextView android:text="@string/text_house_hint1" />
+
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            style="@style/Table"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="4dp">
+
+                <ImageView app:srcCompat="@drawable/bowl" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="4dp">
+
+                <TextView android:text="@string/text_house_hint2" />
+
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            style="@style/Table"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="4dp">
+
+                <ImageView app:srcCompat="@drawable/cabinet" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:paddingLeft="4dp">
+
+                <TextView android:text="@string/text_house_hint3" />
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow style="@style/Table">
+
+            <Button
+                android:id="@+id/button_house_hint"
+                android:text="@string/button_house_hint" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
